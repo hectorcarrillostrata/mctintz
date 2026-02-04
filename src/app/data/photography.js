@@ -1,0 +1,104 @@
+import { category } from "./shop"
+
+export const photographyImage = [
+    "/images/photography/p1.jpg","/images/photography/p4.jpg","/images/photography/p3.jpg","/images/photography/p4.jpg","/images/photography/p5.jpg","/images/photography/p6.jpg"
+]
+export const photoBrand = [
+    "/images/client/amazon-prime-video-logo.svg","/images/client/angular-3.svg","/images/client/huawei-2.svg","/images/client/bosch.svg","/images/client/coinbase.svg","/images/client/husd-3.svg","/images/client/intercom-1.svg","/images/client/linkedin-logo-2013-1.svg","/images/client/yamaha-2-1.svg","/images/client/logo-donington-park.svg","/images/client/microsoft-office-2013.svg","/images/client/netflix-3.svg","/images/client/python-3.svg","/images/client/redbull-1.svg","/images/client/zoom-communications-logo.svg","/images/client/suntech-power-logo.svg","/images/client/v-power-1.svg"
+]
+
+export const imagePortfolio = [
+    {
+        id:1,
+        image:"/images/photography/p1.jpg",
+        category:'branding'
+    },
+    {
+        id:2,
+        image:"/images/photography/p2.jpg",
+        category:'designing'
+    },
+    {
+        id:3,
+        image:"/images/photography/p3.jpg",
+        category:'branding'
+    },
+    {
+        id:4,
+        image:"/images/photography/p4.jpg",
+        category:'designing'
+    },
+    {
+        id:5,
+        image:"/images/photography/p5.jpg",
+        category:'photography'
+    },
+    {
+        id:6,
+        image:"/images/photography/p6.jpg",
+        category:'branding'
+    },
+    {
+        id:7,
+        image:"/images/photography/p7.jpg",
+        category:'designing'
+    },
+    {
+        id:8,
+        image:"/images/photography/p8.jpg",
+        category:'branding'
+    },
+    {
+        id:9,
+        image:"/images/photography/p9.jpg",
+        category:'photography'
+    },
+    {
+        id:10,
+        image:"/images/photography/p10.jpg",
+        category:'photography'
+    },
+    {
+        id:11,
+        image:"/images/photography/p11.jpg",
+        category:'development'
+    },
+    {
+        id:12,
+        image:"/images/photography/p12.jpg",
+        category:'development'
+    },
+    {
+        id:13,
+        image:"/images/photography/p13.jpg",
+        category:'branding'
+    },
+    {
+        id:14,
+        image:"/images/photography/p14.jpg",
+        category:'designing'
+    },
+    {
+        id:15,
+        image:"/images/photography/p15.jpg",
+        category:'photography'
+    },
+    {
+        id:16,
+        image:"/images/photography/p16.jpg",
+        category:'photography'
+    },
+    {
+        id:17,
+        image:"/images/photography/p17.jpg",
+        category:'branding'
+    },
+    {
+        id:18,
+        image:"/images/photography/p18.jpg",
+        category:'photography'
+    },
+]
+export const portfolio = [
+    "/images/photography/p1.jpg","/images/photography/p2.jpg","/images/photography/p3.jpg","/images/photography/p4.jpg","/images/photography/p5.jpg","/images/photography/p6.jpg","/images/photography/p7.jpg","/images/photography/p8.jpg","/images/photography/p9.jpg","/images/photography/p10.jpg","/images/photography/p11.jpg","/images/photography/p12.jpg","/images/photography/p13.jpg","/images/photography/p14.jpg","/images/photography/p15.jpg","/images/photography/p16.jpg","/images/photography/p17.jpg","/images/photography/p18.jpg",
+]
