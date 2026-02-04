@@ -1,0 +1,34 @@
+{
+  "name": "landrick",
+  "description": "Landrick - Next Js Multipurpose Landing & Admin Dashboard Template",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "next": "^15.5.4",
+    "react": "19.1.0",
+    "react-apexcharts": "^1.7.0",
+    "react-bootstrap": "^2.10.10",
+    "react-countup": "^6.5.3",
+    "react-datepicker": "^8.7.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "react-parallax": "^3.5.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-masonry": "^2.7.1",
+    "react-scroll": "^1.9.3",
+    "react-type-animation": "^3.2.0",
+    "simplebar-react": "^3.3.2",
+    "style-loader": "^4.0.0",
+    "swiper": "^12.0.2",
+    "swiper-react": "^1.0.0",
+    "tiny-slider-react": "^0.5.7",
+    "yet-another-react-lightbox": "^3.25.0"
+  }
+}
