@@ -2,7 +2,6 @@
 import React,{useState, useEffect} from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import BackToHome from '../components/back-to-home'
 
 export default function Commingsoon() {
 
@@ -11,7 +10,9 @@ export default function Commingsoon() {
     let [minutes, setMinutes] = useState(0);
     let [seconds, setSeconds] = useState(0);
 
-    let deadline = "December, 31, 2026";
+    const deadline = new Date();
+    deadline.setDate(deadline.getDate() + 10);
+    const deadlineString = deadline.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
     let getTime = () => {
       let time = Date.parse(deadline) - Date.now();
@@ -28,14 +29,14 @@ export default function Commingsoon() {
 
   return (
     <>
-      <section className="bg-home d-flex align-items-center" style={{backgroundImage:"url('/images/comingsoon.jpg')"}}>
+      <section className="bg-home d-flex align-items-center" style={{backgroundImage:"url('/images/mctintz_comingsoon2.jpg')"}}>
         <div className="bg-overlay"></div>
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-8 col-md-12 text-center">
-                    <Link href="#" className="logo h5"><Image src="/images/logo-light.png" width={134} height={28} alt=""/></Link>
-                    <div className="text-uppercase title-dark text-white mt-2 mb-4 coming-soon">We're Coming soon...</div>
-                    <p className="text-white-50 para-desc mx-auto">Start working with <span className="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                        <div className="text-uppercase title-dark text-white mt-2 mb-4 coming-soon">mctintz.com is coming soon...</div>
+                    <p className="text-white-50 para-desc mx-auto">The site will be built in <span className="text-primary fw-bold">10 days</span>. We're working hard to bring you an amazing experience.</p>
+                    <p className="text-white-50 para-desc mx-auto mt-3">Ready to book your appointment? <a href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="text-primary fw-bold">Reserve your booking here</a></p>
                 </div>
             </div>
 
@@ -59,7 +60,6 @@ export default function Commingsoon() {
             </div>
         </div> 
       </section>
-      <BackToHome/>
-    </>
+          </>
   )
 }
