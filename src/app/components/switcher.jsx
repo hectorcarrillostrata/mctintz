@@ -55,10 +55,7 @@ export default function Switcher() {
 
   return (
     <>
-        <Link href="#" data-bs-toggle="offcanvas" data-bs-target="#switcher-sidebar" className="card switcher-btn shadow-md text-primary z-index-1 d-md-inline-flex d-none">
-            <i className="mdi mdi-cog mdi-24px mdi-spin align-middle"></i>
-        </Link>
-        <div className="offcanvas offcanvas-start shadow border-0" tabIndex={-1} id="switcher-sidebar" aria-labelledby="offcanvasLeftLabel">
+                <div className="offcanvas offcanvas-start shadow border-0" tabIndex={-1} id="switcher-sidebar" aria-labelledby="offcanvasLeftLabel">
             <div className="offcanvas-header p-4 border-bottom">
                 <h5 id="offcanvasLeftLabel" className="mb-0">
                     <img src="/images/logo-dark.png" height="24" className="light-version" alt=""/>
