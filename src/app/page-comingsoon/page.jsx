@@ -27,6 +27,10 @@ export default function Commingsoon() {
       return () => clearInterval(interval);
     })
 
+    useEffect(() => {
+      document.title = "mctintz.com - Coming Soon";
+    }, [])
+
   return (
     <>
       <section className="bg-home d-flex align-items-center" style={{backgroundImage:"url('/images/mctintz_comingsoon2.jpg')"}}>
