@@ -59,7 +59,7 @@ export default function Commingsoon() {
             </div>
             <div className="row">
                 <div className="col-md-12 text-center">  
-                    <Link href="/" className="btn btn-primary mt-4"><i className="mdi mdi-backup-restore"></i> Go Back Home</Link>
+                    <Link href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-4"><i className="mdi mdi-backup-restore"></i> Book Now</Link>
                 </div>
             </div>
         </div> 
