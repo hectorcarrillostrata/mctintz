@@ -242,27 +242,27 @@ export const corporateServices = [
 ]
 export const clenerServices = [
     {
-        icon:'mdi mdi-cube-unfolded',
-        title:'Latest Equipments',
-        desc:'It is a long established fact that a reader will be of a page reader will be of at its layout.',
+        icon:'mdi mdi-car',
+        title:'Window Tinting',
+        desc:'Premium window tinting services with top-quality films for UV protection, privacy, and enhanced vehicle appearance.',
         active:false
     },
     {
-        icon:'mdi mdi-currency-usd',
-        title:'Affordable Service',
-        desc:'It is a long established fact that a reader will be of a page reader will be of at its layout.',
+        icon:'mdi mdi-cash',
+        title:'Flexible Financing',
+        desc:'Affordable payment options starting at just $50 down with 90 days same as cash financing available.',
         active:true
     },
     {
-        icon:'mdi mdi-account-multiple',
-        title:'Expert Team',
-        desc:'It is a long established fact that a reader will be of a page reader will be of at its layout.',
+        icon:'mdi mdi-cog',
+        title:'Expert Installation',
+        desc:'Professional installation by certified technicians ensuring perfect fit and finish every time.',
         active:false
     },
     {
-        icon:'mdi mdi-thumb-up',
-        title:'Quality Work',
-        desc:'It is a long established fact that a reader will be of a page reader will be of at its layout.',
+        icon:'mdi mdi-shield-check',
+        title:'Lifetime Warranty',
+        desc:'Complete warranty coverage on all our window tinting services for your peace of mind.',
         active:false
     },
 ]

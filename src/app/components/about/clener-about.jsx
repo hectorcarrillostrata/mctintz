@@ -27,21 +27,21 @@ export default function ClenerAbout() {
 
         <div className="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
             <div className="section-title ms-lg-5">
-                <h4 className="title mb-4">We Are Best Company <br/> In Cleaning</h4>
-                <p className="text-muted">Start working with <span className="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                <p className="text-muted">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+                <h4 className="title mb-4">We Are The Best Choice <br/> For Automotive Customization</h4>
+                <p className="text-muted">Choose <span className="text-primary fw-bold">MC Tintz</span> for premium window tinting, custom wheels, and performance tires with expert installation and flexible financing options.</p>
+                <p className="text-muted">MC Tintz is your trusted destination for premium automotive customization in the 815 area. We specialize in window tinting, custom wheels, and performance tires, offering top-tier products, expert installation, and flexible financing options starting at just $50 down and 90 days same as cash.</p>
 
                 <div className="row gap-0">
                     <div className="col-md-6">
                         <ul className="list-unstyled text-muted mb-0">
-                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>100% Satisfaction</li>
-                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Annual Pass Programs</li>
+                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Premium Ceramic Films</li>
+                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Lifetime Warranty</li>
                         </ul>
                     </div>
                     <div className="col-md-6">
                         <ul className="list-unstyled text-muted mb-0">
-                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Flexible and Cost-Effective</li>
-                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Trained Emploies</li>
+                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Flexible Financing</li>
+                            <li className="mb-1"><span className="text-primary h5 me-2"><MdCheckCircleOutline className="align-middle"/></span>Expert Installation</li>
                         </ul>
                     </div>
                 </div>
