@@ -40,7 +40,7 @@ export default function Commingsoon() {
                 <div className="col-lg-8 col-md-12 text-center">
                                         <div className="text-uppercase title-dark text-white mt-2 mb-4 coming-soon">mctintz.com is coming soon...</div>
                     <p className="text-white-50 para-desc mx-auto">The site will be built in <span className="text-primary fw-bold">10 days</span>. We're working hard to bring you an amazing experience.</p>
-                    <p className="text-white-50 para-desc mx-auto mt-3">Ready to book your appointment? <a href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="text-primary fw-bold">Reserve your booking here</a></p>
+                    <p className="text-white-50 para-desc mx-auto mt-3">Ready to book your appointment? <a href="https://book.squareup.com/appointments/i4j6yc545z3evy/location/LY0JZVKP79TXE/services" target="_blank" rel="noopener noreferrer" className="text-primary fw-bold">Reserve your booking here</a></p>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function Commingsoon() {
             </div>
             <div className="row">
                 <div className="col-md-12 text-center">  
-                    <Link href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-4"><i className="mdi mdi-backup-restore"></i> Book Now</Link>
+                    <Link href="https://book.squareup.com/appointments/i4j6yc545z3evy/location/LY0JZVKP79TXE/services" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-4"><i className="mdi mdi-backup-restore"></i> Book Now</Link>
                 </div>
             </div>
         </div> 

@@ -24,10 +24,10 @@ export default function MctintzNavbarDark() {
             <div className="container">
                 <Link className="logo" href="/index-mctintz">
                     <span className="logo-light-mode">
-                        <Image src="/images/logo-dark.png" className="l-dark" width={134} height={24} alt="MC Tintz"/>
-                        <Image src="/images/logo-light.png" className="l-light" width={134} height={24} alt="MC Tintz"/>
+                        <Image src="/images/logo-mctintz.svg" className="l-dark" width={134} height={24} alt="MC Tintz" style={{opacity: 1}}/>
+                        <Image src="/images/logo-mctintz.svg" className="l-light" width={134} height={24} alt="MC Tintz" style={{opacity: 1}}/>
                     </span>
-                    <Image src="/images/logo-light.png" width={134} height={24} className="logo-dark-mode" alt="MC Tintz"/>
+                    <Image src="/images/logo-mctintz.svg" width={134} height={24} className="logo-dark-mode" alt="MC Tintz" style={{opacity: 1}}/>
                 </Link>
 
                 <div className="menu-extras">

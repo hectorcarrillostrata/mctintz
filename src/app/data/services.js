@@ -244,25 +244,17 @@ export const clenerServices = [
     {
         icon:'mdi mdi-car',
         title:'Window Tinting',
-        desc:'Premium window tinting services with top-quality films for UV protection, privacy, and enhanced vehicle appearance.',
+        desc:'Premium window tinting with top-quality films for UV protection, privacy, and enhanced vehicle appearance. Book your appointment today.',
+        cta:'Book Now',
+        link:'https://book.squareup.com/appointments/i4j6yc545z3evy/location/LY0JZVKP79TXE/services',
         active:false
     },
     {
-        icon:'mdi mdi-cash',
-        title:'Flexible Financing',
-        desc:'Affordable payment options starting at just $50 down with 90 days same as cash financing available.',
-        active:true
-    },
-    {
-        icon:'mdi mdi-cog',
-        title:'Expert Installation',
-        desc:'Professional installation by certified technicians ensuring perfect fit and finish every time.',
-        active:false
-    },
-    {
-        icon:'mdi mdi-shield-check',
-        title:'Lifetime Warranty',
-        desc:'Complete warranty coverage on all our window tinting services for your peace of mind.',
+        icon:'mdi mdi-tire',
+        title:'Wheels & Rims Installation',
+        desc:'Custom wheels and rims with expert installation. Inventory coming soon — stay tuned for our latest selection.',
+        cta:'Inventory Coming Soon',
+        link:'#',
         active:false
     },
 ]

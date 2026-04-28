@@ -44,7 +44,7 @@ export default function MctintzFooter() {
                 <li><Link href="/index-mctintz#about" className="text-muted">About Us</Link></li>
                 <li><Link href="/index-mctintz#services" className="text-muted">Our Services</Link></li>
                 <li><Link href="/index-mctintz#service-menu" className="text-muted">Service Menu</Link></li>
-                <li><Link href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="text-muted">Book Appointment</Link></li>
+                <li><Link href="https://book.squareup.com/appointments/i4j6yc545z3evy/location/LY0JZVKP79TXE/services" target="_blank" rel="noopener noreferrer" className="text-muted">Book Appointment</Link></li>
               </ul>
             </div>
           </div>

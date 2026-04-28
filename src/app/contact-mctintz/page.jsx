@@ -10,12 +10,12 @@ export default function ContactMctintz() {
     <>
      <MctintzNavbarDark/> 
 
-    <section className="vh-100 d-flex align-items-center" style={{backgroundImage:"url('/images/contact-detail.jpg')", backgroundPosition:'center'}}>
-      <div className="bg-overlay bg-overlay-white"></div>
+    <section className="vh-100 d-flex align-items-center" style={{backgroundImage:"url('/images/contact-mctintz.png')", backgroundPosition:'center', backgroundSize:'cover'}}>
+      <div className="bg-overlay" style={{backgroundColor:'rgba(0,0,0,0.35)'}}></div>
       <div className="container">
           <div className="row align-items-center">
               <div className="col-lg-6 offset-lg-6 col-md-7 offset-md-5">
-                  <div className="title-heading mt-5 pt-4">
+                  <div className="title-heading mt-5 pt-4 p-4 rounded shadow" style={{backgroundColor:'rgba(255,255,255,0.3)', backdropFilter:'blur(8px)', WebkitBackdropFilter:'blur(8px)', color:'#212529'}}>
                       <h1 className="heading">Get in Touch with MC Tintz</h1>
                       <p className="text-dark">Visit <span className="text-primary fw-bold">MC Tintz</span> for premium automotive customization services. We specialize in window tinting, custom wheels, and performance tires with flexible financing options.</p>
                       
@@ -69,7 +69,7 @@ export default function ContactMctintz() {
                           </div>
                           <div className="flex-1 content">
                               <h5 className="title fw-bold mb-0">Book Appointment</h5>
-                              <Link href="https://mctintz.square.site/" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">Book Now</Link>
+                              <Link href="https://book.squareup.com/appointments/i4j6yc545z3evy/location/LY0JZVKP79TXE/services" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">Book Now</Link>
                           </div>
                       </div>
                       

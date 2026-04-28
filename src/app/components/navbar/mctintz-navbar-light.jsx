@@ -34,16 +34,18 @@ export default function MctintzNavbarLight() {
     return (
         <header id="topnav" className={`defaultscroll sticky ${isScrolled ? 'nav-sticky' : ''}`} style={{
             transition: 'all 0.5s ease',
-            backgroundColor: isScrolled ? '#fff' : 'transparent',
-            boxShadow: isScrolled ? '0 0 3px rgba(60, 72, 88, 0.15)' : 'none'
+            backgroundColor: isScrolled ? 'rgba(20, 20, 20, 0.65)' : 'transparent',
+            backdropFilter: isScrolled ? 'blur(10px)' : 'none',
+            WebkitBackdropFilter: isScrolled ? 'blur(10px)' : 'none',
+            boxShadow: isScrolled ? '0 2px 12px rgba(0, 0, 0, 0.3)' : 'none'
         }}>
             <div className="container">
                 <Link className="logo" href="/index-mctintz">
                     <span className="logo-light-mode">
-                        <Image src="/images/logo-dark.png" className="l-dark" width={134} height={24} alt="MC Tintz"/>
-                        <Image src="/images/logo-light.png" className="l-light" width={134} height={24} alt="MC Tintz"/>
+                        <Image src="/images/logo-mctintz.svg" className="l-dark" width={134} height={24} alt="MC Tintz" style={{opacity: 1}}/>
+                        <Image src="/images/logo-mctintz.svg" className="l-light" width={134} height={24} alt="MC Tintz" style={{opacity: 1}}/>
                     </span>
-                    <Image src="/images/logo-light.png" width={134} height={24} className="logo-dark-mode" alt="MC Tintz"/>
+                    <Image src="/images/logo-mctintz.svg" width={134} height={24} className="logo-dark-mode" alt="MC Tintz" style={{opacity: 1}}/>
                 </Link>
 
                 <div className="menu-extras">
@@ -63,29 +65,29 @@ export default function MctintzNavbarLight() {
                 </ul>
 
                 <div id="navigation" className={toggle ? 'd-block' : 'd-none'}>
-                    <ul className={`navigation-menu nav-light`}>
+                    <ul className={`navigation-menu ${isScrolled ? '' : 'nav-light'}`}>
                         <li>
-                            <Link href="/index-mctintz" className="sub-menu-item">
+                            <Link href="/index-mctintz" className="sub-menu-item" style={{color: 'rgba(255,255,255,0.9)'}}>
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className="sub-menu-item">
+                            <Link href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }} className="sub-menu-item" style={{color: 'rgba(255,255,255,0.9)'}}>
                                 About Us
                             </Link>
                         </li>
                         <li>
-                            <Link href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="sub-menu-item">
+                            <Link href="#services" onClick={(e) => { e.preventDefault(); scrollToSection('services'); }} className="sub-menu-item" style={{color: 'rgba(255,255,255,0.9)'}}>
                                 Our Services
                             </Link>
                         </li>
                         <li>
-                            <Link href="#service-menu" onClick={(e) => { e.preventDefault(); scrollToSection('service-menu'); }} className="sub-menu-item">
+                            <Link href="#service-menu" onClick={(e) => { e.preventDefault(); scrollToSection('service-menu'); }} className="sub-menu-item" style={{color: 'rgba(255,255,255,0.9)'}}>
                                 Service Menu
                             </Link>
                         </li>
                         <li>
-                            <Link href="/contact-mctintz" className="sub-menu-item">
+                            <Link href="/contact-mctintz" className="sub-menu-item" style={{color: 'rgba(255,255,255,0.9)'}}>
                                 Contact Us
                             </Link>
                         </li>
