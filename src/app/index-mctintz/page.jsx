@@ -21,7 +21,7 @@ export default function IndexMctintz() {
         <section className="bg-video-studio d-flex align-items-center justify-content-center" id="home">
             <div className="bg-video-wrapper">
                 <video 
-    src="/videos/mc_tintz_video_1.mp4"
+    src="https://d3l01ufivdsw6s.cloudfront.net/mctintz.mp4"
     autoPlay
     muted
     loop

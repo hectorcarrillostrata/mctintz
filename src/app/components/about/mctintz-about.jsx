@@ -11,7 +11,7 @@ export default function MctintzAbout() {
             <div className="modern-app-bg-shape position-relative">
                 <div className="px-4">
                     <video 
-                        src="/videos/mc_tintz_video_2.mp4"
+                        src="https://d3l01ufivdsw6s.cloudfront.net/mctintz_rims.mp4"
                         autoPlay
                         muted
                         loop
@@ -23,7 +23,7 @@ export default function MctintzAbout() {
                 
                 <div className="modern-saas-absolute-left">
                     <video 
-                        src="/videos/mc_tintz_video_2.mp4"
+                        src="https://d3l01ufivdsw6s.cloudfront.net/mctintz_porsche.mp4"
                         autoPlay
                         muted
                         loop
@@ -70,7 +70,7 @@ export default function MctintzAbout() {
                 </div>
                 <div className="modal-body">
                     <video 
-                        src="/videos/mc_tintz_video_2.mp4"
+                        src="https://d3l01ufivdsw6s.cloudfront.net/mctintz.mp4"
                         controls
                         autoPlay
                         muted

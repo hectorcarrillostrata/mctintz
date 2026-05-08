@@ -6,3 +6,4 @@ out/
 .env
 .env.*
 .windsurf/
+public/videos/
